@@ -1,4 +1,4 @@
-# Ejercicio1, Contador Android
+# Contador Android
 
 Este proyecto consiste en una aplicación Android que funciona como un contador simple. Muestra un contador en una interfaz gráfica.
 
