@@ -11,7 +11,7 @@ Este proyecto consiste en una aplicación Android que funciona como un contador 
 
 ## Capturas de Pantalla
 
-![image](https://github.com/aleramiirez/Ejercicios-Android/assets/121113496/e442d9d3-1a46-4560-a154-c6de35d40184)
+![image](https://github.com/aleramiirez/RamirezLuqueM01/assets/121113496/e442d9d3-1a46-4560-a154-c6de35d40184)
 
 ## Uso
 
