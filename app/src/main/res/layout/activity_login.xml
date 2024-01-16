@@ -39,7 +39,7 @@
             android:fontFamily="@font/poppins_medium"
             android:hint="Nombre"
             android:inputType="text"
-            android:textColor="#5B5B5B"
+            android:textColor="#FFFFFF"
             android:textColorHint="#5B5B5B" />
 
         <EditText
@@ -50,7 +50,7 @@
             android:fontFamily="@font/poppins_medium"
             android:hint="Contraseña"
             android:inputType="textPassword"
-            android:textColor="#5B5B5B"
+            android:textColor="#FFFFFF"
             android:textColorHint="#5B5B5B" />
     </LinearLayout>
 
@@ -60,8 +60,9 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#000000"
         android:fontFamily="@font/poppins_medium"
-        android:text="LOGIN"
         android:onClick="login"
+        android:text="LOGIN"
+        android:textSize="24sp"
         app:cornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

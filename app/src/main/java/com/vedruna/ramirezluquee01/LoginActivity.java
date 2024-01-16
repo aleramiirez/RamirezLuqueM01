@@ -30,7 +30,8 @@ public class LoginActivity extends AppCompatActivity {
 
         if (user.equals("alejandro") && password.equals("admin")){
             String username = user;
-            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+
+            Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
             intent.putExtra("userName", username);
             startActivity(intent);
         } else {
