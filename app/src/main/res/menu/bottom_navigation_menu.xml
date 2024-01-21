@@ -10,8 +10,8 @@
         android:icon="@drawable/baseline_speed_24" />
     <item
         android:id="@+id/navigation_map"
-        android:title="map"
-        android:icon="@drawable/baseline_location_pin_24" />
+        android:title="api"
+        android:icon="@drawable/baseline_store_mall_directory_24" />
     <item
         android:id="@+id/navigation_exit"
         android:title="Exit"

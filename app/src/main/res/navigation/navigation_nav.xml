@@ -13,9 +13,6 @@
         <action
             android:id="@+id/action_homeFragment_to_countFragment"
             app:destination="@id/countFragment" />
-        <action
-            android:id="@+id/action_homeFragment_to_mapsFragment"
-            app:destination="@id/mapsFragment" />
     </fragment>
     <fragment
         android:id="@+id/countFragment"
@@ -23,8 +20,8 @@
         android:label="fragment_count"
         tools:layout="@layout/fragment_count" />
     <fragment
-        android:id="@+id/mapsFragment"
-        android:name="com.vedruna.ramirezluquee01.MapsFragment"
-        android:label="fragment_maps"
-        tools:layout="@layout/fragment_maps" />
+        android:id="@+id/apiFragment"
+        android:name="com.vedruna.ramirezluquee01.ApiFragment"
+        android:label="fragment_api"
+        tools:layout="@layout/fragment_api" />
 </navigation>

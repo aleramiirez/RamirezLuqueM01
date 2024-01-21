@@ -10,10 +10,6 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class HomeActivity extends AppCompatActivity {
 
-    // El error que estás enfrentando indica que hay un intento de invocar el método getNavController() en un objeto nulo
-    // de tipo NavHostFragment. Esto significa que NavHostFragment navHostFragment = (NavHostFragment)
-    // getSupportFragmentManager().findFragmentById(R.id.frame); está devolviendo null.
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,7 +29,7 @@ public class HomeActivity extends AppCompatActivity {
                 } else if (item.getItemId() == R.id.navigation_count) {
                     navController.navigate(R.id.countFragment);
                 } else if (item.getItemId() == R.id.navigation_map) {
-                    navController.navigate(R.id.mapsFragment);
+                    navController.navigate(R.id.apiFragment);
                 } else if (item.getItemId() == R.id.navigation_exit) {
                     finish();
                 }
