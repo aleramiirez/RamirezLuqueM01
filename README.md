@@ -68,16 +68,18 @@ La pantalla de contador presenta un contador que puede aumentar, disminuir y rei
 
 ![Captura de pantalla 2023-12-13 184544](https://github.com/aleramiirez/RamirezLuqueM01/assets/121113496/8691a43b-a7d5-4f6f-b606-4e045df2995d)
 
-### Pantalla de Mapa
+### Pantalla de Api (Fragment)
 
 #### Descripción
-La pantalla de mapa utiliza Google Maps para mostrar un marcador en una ubicación predeterminada.
+Esta pantalla no muestra nada por el momento pero se conecta correctamente a una Api creada en SpringBoot.
 
-#### Componentes Principales
-- **map:** Fragmento de mapa de Google Maps.
+### Foto del Proyecto Ejecutado
 
-#### Funcionalidad
-- Muestra un marcador en una ubicación específica al cargar el mapa.
+![Captura de pantalla 2024-01-21 163727](https://github.com/aleramiirez/RamirezLuqueM01/assets/121113496/4e826585-a47c-44a7-889b-45405ebc7521)
+
+### Foto de la Aplicacion en Funcionamiento
+
+![Captura de pantalla 2024-01-21 163746](https://github.com/aleramiirez/RamirezLuqueM01/assets/121113496/9e9ffbf2-1825-4538-a5eb-ee2e4f5f7cc3)
 
 ### Menú de Navegación
 
@@ -87,7 +89,7 @@ El menú de navegación inferior permite al usuario cambiar entre las diferentes
 #### Componentes Principales
 - **navigation_home:** Opción para ir a la pantalla de inicio.
 - **navigation_count:** Opción para ir a la pantalla de contador.
-- **navigation_map:** Opción para ir a la pantalla de mapa.
+- **navigation_api:** Opción para ir a la pantalla de api.
 - **navigation_exit:** Opción para salir de la aplicación.
 
 
